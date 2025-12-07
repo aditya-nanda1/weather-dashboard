@@ -1,16 +1,60 @@
-# React + Vite
+# 📌 Weather Information Dashboard  
+### Built by **Aditya Nanda**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic Weather Information Dashboard built using React and the **useEffect** hook to fetch and display real-time weather data from an external API. This application allows users to search for any city by name and instantly view live weather conditions with a clean, responsive UI.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://weather-dashboard-plum-seven.vercel.app/  
+🔗 **Source Code:** https://github.com/aditya-nanda1/weather-dashboard.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
+This project demonstrates effective handling of side-effects in React via the `useEffect` hook. It handles API fetching, asynchronous operations, loading and error states, and updates the UI dynamically based on user input.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌤 Core Functionality
+- Search weather by city name  
+- Fetch and display live weather data from a weather API  
+- Show real-time temperature  
+- Display current weather condition (e.g. Clear, Rain, Clouds)  
+- Display additional info: humidity, wind speed (or other relevant data)  
+- Default weather information shown on page load (for a default city or location)  
+- Dynamic UI updates on every new search  
+
+---
+
+### ⚙️ Side-Effect & State Handling
+- API call triggered via `useEffect`  
+- Dependency-based re-fetching when city name changes  
+- Loading state during data fetch  
+- Error handling for invalid city input or network/API failures  
+- Clean and optimized effect logic to avoid redundant fetches  
+
+---
+
+## 🛠️ Tech Stack
+- **React**  
+- **useEffect Hook**  
+- **JavaScript (ES6+)**  
+- **CSS**  
+- **Weather API** (for data fetch)  
+- **Vercel** for deployment  
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/aditya-nanda1/weather-dashboard.git
+cd weather-dashboard
+npm install
+npm start
+```
+
+---
+
+## 🧑‍💻 Author  
+**Aditya Nanda**
